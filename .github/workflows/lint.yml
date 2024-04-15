@@ -47,10 +47,12 @@ jobs:
           nbqa isort --check-only --diff $(git ls-files '*.ipynb')
       - name: Black
         run: |
-          black --check --diff --line-length=80 $(git ls-files '*.py' '*.ipynb')   
+          black --check --diff --line-length=80 $(git ls-files '*.py')
+          nbqa black --check --diff --line-length=80 $(git ls-files '*.ipynb')
       - name: Mypy
         run: |
-          mypy $(git ls-files '*.py' '*.ipynb')   
+          mypy $(git ls-files '*.py')   
+          nbqa mypy $(git ls-files '*.ipynb')   
   prettier:
     timeout-minutes: 1
     runs-on: ubuntu-latest
