@@ -2,7 +2,6 @@ repos:
   - repo: https://github.com/nbQA-dev/nbQA
     rev: 1.8.5
     hooks:
-      # - id: nbqa-mypy
       - id: nbqa-black
         name: nbqa-black
         description: Run 'black' on a Jupyter Notebook
@@ -11,23 +10,6 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [black]
-      # - id: nbqa-check-ast
-      #   name: nbqa-check-ast
-      #   description: Run 'check-ast' on a Jupyter Notebook
-      #   entry: nbqa pre_commit_hooks.check_ast
-      #   language: python
-      #   require_serial: true
-      #   types_or: [jupyter, markdown]
-      #   additional_dependencies: [pre-commit-hooks]
-      #   args: [--nbqa-dont-skip-bad-cells]
-      # - id: nbqa-flake8
-      #   name: nbqa-flake8
-      #   description: Run 'flake8' on a Jupyter Notebook
-      #   entry: nbqa flake8
-      #   language: python
-      #   require_serial: true
-      #   types_or: [jupyter, markdown]
-      #   additional_dependencies: [flake8]
       - id: nbqa-isort
         name: nbqa-isort
         description: Run 'isort' on a Jupyter Notebook
@@ -85,14 +67,6 @@ repos:
         require_serial: true
         types_or: [jupyter, markdown]
         additional_dependencies: [pydocstyle]
-      # - id: nbqa-ruff
-      #   name: nbqa-ruff
-      #   description: Run 'ruff' on a Jupyter Notebook
-      #   entry: nbqa ruff
-      #   language: python
-      #   additional_dependencies: [ruff]
-      #   require_serial: true
-      #   types_or: [jupyter, markdown]
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0
@@ -139,12 +113,20 @@ repos:
       - id: blacken-docs
         additional_dependencies:
           - black==24.2.0
-  - repo: https://github.com/astral-sh/ruff-pre-commit
-    # Ruff version.
-    rev: v0.4.1
-    hooks:
-      - id: ruff
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.9.0
     hooks:
       - id: mypy
+  - repo: local
+    hooks:
+      - id: pylint
+        name: pylint
+        entry: pylint
+        language: system
+        types: [python]
+        args: ["--max-line-length=79"]
+
+  # - repo: https://github.com/astral-sh/ruff-pre-commit
+  #   rev: v0.4.1
+  #   hooks:
+  #     - id: ruff     
