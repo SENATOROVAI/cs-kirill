@@ -3,14 +3,14 @@
 выполненные задания переносим в Архив(внизу файла)
 ==================================
 Git:
-1)подписаться на коллег https://github.com/orgs/SENATOROVAI/teams/senatorov-team     
-2)оформить гитхаб https://www.youtube.com/watch?v=pm17VwdJ6UI  
+1)подписаться на коллег https://github.com/orgs/SENATOROVAI/teams/senatorov-team
+2)оформить гитхаб https://www.youtube.com/watch?v=pm17VwdJ6UI
 3)выбор шаблона https://github.com/abhisheknaiidu/awesome-github-profile-readme
 4)https://t.me/c/1937296927/3602/5714 (по желанию)
-==================================                                                                        
+==================================
 Computer Science:
-1) компьютер сайнс пройти курс https://learn.epam.com/detailsPage?id=07464fe7-306f-4aa2-abdb-fb81ba509124 
-2) посмотреть видео https://www.youtube.com/watch?v=Wh22_O8jXVQ&list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc 
+1) компьютер сайнс пройти курс https://learn.epam.com/detailsPage?id=07464fe7-306f-4aa2-abdb-fb81ba509124
+2) посмотреть видео https://www.youtube.com/watch?v=Wh22_O8jXVQ&list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc
 ==================================
 Python (получить сертификат):
 1)https://karpov.courses/pythonzero
@@ -25,7 +25,7 @@ Python в игровой форме (делай это если устал от 
 1) https://stepik.org/course/48679/promo?search=3547718930
 
 Алгоритмы (выполнить):
-1)https://codeforces.com/problemset/problem/4/A 
+1)https://codeforces.com/problemset/problem/4/A
 2)https://leetcode.com/problems/palindrome-number/
 3)переписать в тетрадь
 https://t.me/c/1937296927/766/8001 выписать 55стр до 70
@@ -33,15 +33,15 @@ https://t.me/c/1937296927/766/8001 выписать 55стр до 70
 5) https://stepik.org/course/1547/syllabus
 6) https://neerc.ifmo.ru/wiki/index.php?title=Алгоритмы_и_структуры_данных ИТМО
 
-1 задача в день: 
+1 задача в день:
 https://codeforces.com/problemset?order=BY_RATING_ASC&tags=math
 
 копируешь с каждой странице по 1 решению:
-первая страница https://codeforces.com/problemset/status/4/problem/A 
+первая страница https://codeforces.com/problemset/status/4/problem/A
 середина https://codeforces.com/problemset/status/4/problem/A/page/600?order=BY_PROGRAM_LENGTH_ASC
 последняя https://codeforces.com/problemset/status/4/problem/A/page/1356?order=BY_PROGRAM_LENGTH_ASC
- 
-и вставляешь себе в алгоритмы Algorithms\codeforces.ipynb, потом проводишь разбор кода 
+
+и вставляешь себе в алгоритмы Algorithms\codeforces.ipynb, потом проводишь разбор кода
 и так дальше по другим задачам.
 
 ==================================
