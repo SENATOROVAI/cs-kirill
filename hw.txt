@@ -13,6 +13,15 @@ Computer Science:
 2) посмотреть видео https://www.youtube.com/watch?v=Wh22_O8jXVQ&list=PLIJLLSrXDPojDGKW0WZ7sU0eO3nyn0oDc
 ==================================
 Python (получить сертификат):
+Скачать https://t.me/c/1937296927/1/16676 сначала прочитать 85-95стр, потом всё остальное
+
+Если любишь книги:
+
+1)скачай https://t.me/c/1937296927/1/18019 и создай два файла в папке Python,
+Перепиши две книги в эти два файла.
+1- posobie.ipynb
+2- byte_of_python.ipynb
+
 1)https://karpov.courses/pythonzero
 2)https://stepik.org/course/63085/promo
 два курса проходи параллельно
