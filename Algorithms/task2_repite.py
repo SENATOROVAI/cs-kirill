@@ -20,12 +20,11 @@
 def digits_reverse(n_1: int) -> int:
     """Функция возвращает число в обратном порядке"""
     if n_1 < 10:
-        return n_1
-    else:
-        last_digits: int = n_1 % 10
-        print(last_digits)
-        # Убираем у числа последнюю цифру и вызываем функцию
-        return digits_reverse(n_1 // 10)
+        print(n_1)
+    last_digits: int = n_1 % 10
+    print(last_digits)
+    # Убираем у числа последнюю цифру и вызываем функцию
+    return digits_reverse(n_1 // 10)
 
 
 digits_input = int(input(":>"))

@@ -35,14 +35,13 @@ def reverse_digits(number: int) -> int:
     # базовый случай
     if number < 10:
         return number
-    else:
-        # находим последнюю цифру
-        last_digits = number % 10
-        # вывожу последнюю цифру
+    # находим последнюю цифру
+    last_digits = number % 10
+    # вывожу последнюю цифру
 
-        print(last_digits, end=" ")
-        # рекурсивно вызываем функцию, переходим к следующей цифре
-        return reverse_digits(number // 10)
+    print(last_digits, end=" ")
+    # рекурсивно вызываем функцию, переходим к следующей цифре
+    return reverse_digits(number // 10)
 
 
 # эскейп последовательности \n перенос каретки на новую строку
